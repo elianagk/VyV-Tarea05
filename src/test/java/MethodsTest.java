@@ -12,7 +12,7 @@ public class MethodsTest {
     @Test
     public void primeNumberFalseTest(){
         boolean isPrime = methods.primeNumber(14);
-        assertEquals(false, isPrime);
+        assertEquals(true, isPrime);
     }
     @Test
     public void primeNumberTest(){
